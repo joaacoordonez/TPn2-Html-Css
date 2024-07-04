@@ -1,0 +1,181 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(fonts/Montserrat-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(fonts/Montserrat-Regular.ttf);
+    font-weight: normal;
+}
+
+body {
+    background-color: rgb(177, 229, 233);
+}
+
+header nav{
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background-color: white;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #e4596c;
+}
+
+a img:hover {
+    opacity: 0.4;
+}
+
+.contenido{
+    float: left;
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+section div p{
+    background-color: #e4596c;
+    float: left;
+    width: 50%;
+    height: 100%;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff;
+}
+section div img{
+    width: 50%;
+    height: 25%;   
+    float: left;
+
+}
+.iframe img{
+    width: 50%;
+    height: auto;
+    float: inline-end;
+}
+.iframe{
+    display: flex;
+}
+
+h1{
+    color: #e4596c;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+h2{
+    color: #e4596c;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+
+input{
+    background-color: #e4596c;;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+
+form{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin-bottom: 80px;
+    opacity: 0.9;
+}
+
+form.formulario input{
+    background-color: #e4596c;
+    border-radius: 5px;
+    border: none;
+    padding: 0px;
+    color: white;
+    opacity: 0.9;
+}
+
+form.formulario select{
+    background-color: #e4596c;
+    border-radius: 5px;
+    border: none;
+    padding: 0px;
+    color: white;
+    opacity: 0.9;
+}
+
+::placeholder{
+    color: white;
+}
+
+button {
+    border: none;
+    background-color: #e4596c;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 30%;
+    max-width: 200px;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+footer {
+    padding: 10px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-align: center;
+    background-color: #e4596c;
+    border-top: 1px solid #e9ecef;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

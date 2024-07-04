@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="images/Tulum.ico" type="image/x-icon">
+    <title>Turismo Tulum</title>
+</head>
+
+<header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="atracciones.html">Atracciones</a></li>
+                <li><a href="alojamiento.html">Alojamiento</a></li>
+                <li><a href="reservas.html">Reservá ahora</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+    <img src="images/Banner.png" alt="Banner">
+</header>
+
+<body>
+    <main>
+        <h1>Reservá ahora:</h1>
+        <form action="nosotros.html" method="get" class="formulario">
+            DNI: <input type="text" required> <br>
+            Nombre: <input type="text" required> <br>
+            Apellido: <input type="text" required> <br>
+            Fecha de nacimiento: <input type="date" required> <br>
+            Email: <input type="email" placeholder="Ej: juanferquintero@gmail.com" required> <br>
+            Número de teléfono: <input type="tel" placeholder="Ej: 11-2373-5900" required> <br>
+            ¿Viajás con mascotas? <input type="checkbox"> <br>
+            Fecha de entrada: <input type="date" required>
+            Fecha de salida: <input type="date" required> <br>
+            <p>
+                Cantidad de adultos: 
+                <select name="number" required>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                </select>
+            / Cantidad de menores: 
+                <select name="number" required>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                </select> <br>
+            Hotel:
+                <select name="tipo" required>
+                    <option>Kanan Tulum Hotel</option>
+                    <option>Ahau Tulum Hotel</option>
+                </select>
+            </p>
+            <input type="submit" value="Reserva hecha">
+        </form>
+    </main>
+    
+    <footer>
+        <h4>&copy; 2024 Consejo de Promoción Turistica de ORT. Todos los derechos reservados.</h4> 
+    </footer>
+    </body>
+</html>
